@@ -1,0 +1,91 @@
+/* font goolge */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Tajawal:wght@500&display=swap');
+
+body {
+    font-family: 'Open Sans', sans-serif !important;
+    font-family: 'Tajawal', sans-serif;
+}
+
+.bg-container {
+    background: #f6f6f6 url("/image/background.png") no-repeat fixed center/cover;
+    min-height: 100vh;
+    height: 100%;
+}
+.font-main {
+    font-family: 'Tajawal', sans-serif;
+}
+.icon-logo {
+    font-size: 30px;
+    color: #fff;
+}
+.navbar-toggler:focus {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+.nav-link {
+    text-transform: uppercase;
+    font-family: 'Tajawal', sans-serif;
+    color: #fff;
+    margin: 0 8px;
+}
+
+.nav-link.active {
+    color: #0d7ff3;
+}
+
+.font-weight-bolder {
+    font-weight: bolder !important;
+}
+
+.dropdown-menu[data-bs-popper] {
+    left: auto !important;
+    right: 0 !important;
+}
+
+.center {
+    height: calc(100vh - 110px);
+}
+
+.text-orange {
+    color: #f50;
+    font-weight: bolder;
+}
+
+.parent>h2 {
+    font-weight: bold;
+}
+
+.parent {
+    background: rgba(0, 0, 0, 0.5);
+    border: 1px solid #f6f6f6;
+    border-radius: 10px;
+
+}
+
+.icon {
+    width: 55px;
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.icon>i {
+    align-self: center;
+    font-size: 25px;
+}
+
+@media (max-width: 600px) {
+    .icon {
+        width: 40px;
+        height: 40px;
+    }
+    .icon>i {
+        font-size: 20px;
+    }
+}
